@@ -1,0 +1,124 @@
+.products {
+  .products__wrap {
+    .products__item {
+      border: 1.5px solid rgba(0, 0, 0, 0.08);
+
+      &:hover {
+        border: 1.5px solid #93B474;
+        cursor: pointer;
+      }
+
+      .products__img {
+        position: relative;
+
+        .products__promotion {
+          position: absolute;
+          top: 20px;
+          left: -1px;
+        }
+      }
+
+      .products__name {
+        padding: 3% 5% 0 5%;
+
+        p {
+          color: #1A2F3F;
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+        }
+
+        span {
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          color: #8A8A8A;
+        }
+      }
+
+      .products__desc {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        padding: 1.5% 5% 5% 5%;
+
+        div {
+          p {
+            color: #8A8A8A;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            margin-left: 10px;
+          }
+
+          span {
+            color: #337D5A;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+          }
+        }
+
+        p:first-child {
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          color: #000000;
+          margin-bottom: 15px;
+        }
+      }
+
+      .products__price {
+        padding: 3% 3%;
+
+        p {
+          color: #1A2F3F;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+
+          span:first-child {
+            font-size: 20px;
+            color: #337D5A;
+            margin-left: 5px;
+          }
+
+          span:last-child {
+            color: #8A8A8A;
+            font-size: 16px;
+            font-weight: 500;
+            margin-left: 5px;
+          }
+        }
+
+        .products__button-buy {
+          font-family: 'Raleway';
+          font-weight: 600;
+          font-size: 13px;
+          background-color: #337D5A;
+          color: white;
+          padding: 10px 40px;
+          border: 1px solid transparent;
+
+          &:hover {
+            color: #337D5A;
+            background-color: white;
+            border: 1px solid #337D5A;
+            transition: 0.4s;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:760px) {
+  .products__wrap {
+    grid-column: 1/1;
+  }
+}

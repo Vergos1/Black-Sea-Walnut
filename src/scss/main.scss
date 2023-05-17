@@ -5,7 +5,31 @@
 @import "settings";
 
 // подключения компонентов страницы
+// большие компоненты
 @import "./components/header";
 @import "./components/footer";
-@import "./components/header-wholesale";
 @import "./components/banner";
+@import "./components/header-wholesale";
+// шапка для wholesale
+@import "./components/products";
+
+
+.title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  text-align: center;
+  color: #1A2F3F;
+  margin-top: 80px;
+}
+
+.subtitle {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #1A2F3F;
+  margin: 20px 0 50px 0;
+}
