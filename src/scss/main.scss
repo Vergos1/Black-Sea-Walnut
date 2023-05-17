@@ -33,3 +33,20 @@
   color: #1A2F3F;
   margin: 20px 0 50px 0;
 }
+
+.button-request-white {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 15px;
+  background-color: white;
+  color: #337D5A;
+  padding: 13px 30px;
+  border: 2px solid #337D5A;
+
+  &:hover {
+    color: white;
+    background-color: #337D5A;
+    border: 2px solid transparent;
+    transition: 0.4s;
+  }
+}
