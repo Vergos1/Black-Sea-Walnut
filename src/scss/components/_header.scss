@@ -38,6 +38,7 @@
 
 .hover-link {
   border-bottom: 2px solid transparent;
+  color: #323232;
 }
 
 .hover-link:hover {
@@ -45,18 +46,22 @@
   transition: all 0.3s ease;
 }
 
-.hover-link-nav {
+.header__nav-link {
   padding: 0 5px 11px 5px;
   border-bottom: 3px solid transparent;
+  font-weight: 500;
+  font-size: 15px;
+  color: #1A2F3F;
 }
 
-.hover-link-nav:hover {
+.header__nav-link:hover {
   border-bottom: 3px solid #93B474;
   transition: all 0.3s ease;
 }
 
 
-.header__social-network-logo-number {
+
+.header__social-icon-number {
   .header__number {
     a {
       font-weight: 600;
@@ -94,11 +99,6 @@
   }
 }
 
-.hover-link-nav {
-  font-weight: 500;
-  font-size: 15px;
-}
-
 @media screen and (max-width:420px) {
   .header__wrap:nth-child(2) {
     text-align: center;
@@ -127,7 +127,7 @@
     margin-top: 10px;
   }
 
-  .hover-link-nav {
+  .header__nav-link {
     font-weight: 500;
     font-size: 1rem;
   }

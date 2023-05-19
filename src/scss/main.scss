@@ -12,6 +12,7 @@
 @import "./components/header-wholesale";
 // шапка для wholesale
 @import "./components/products";
+@import "./components/about";
 
 
 .title {
@@ -19,9 +20,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 45px;
-  text-align: center;
   color: #1A2F3F;
-  margin-top: 80px;
 }
 
 .subtitle {
@@ -29,9 +28,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  text-align: center;
   color: #1A2F3F;
-  margin: 20px 0 50px 0;
 }
 
 .button-request-white {
@@ -40,7 +37,7 @@
   font-size: 15px;
   background-color: white;
   color: #337D5A;
-  padding: 13px 30px;
+  padding: 10px 30px;
   border: 2px solid #337D5A;
 
   &:hover {
@@ -48,5 +45,41 @@
     background-color: #337D5A;
     border: 2px solid transparent;
     transition: 0.4s;
+  }
+}
+
+.active-play {
+  max-width: 15%;
+}
+
+.d-active-play {
+  max-width: 15%;
+}
+
+.play-ico .d-active-play {
+  display: none;
+}
+
+.play-ico:hover .active-play {
+  display: none;
+}
+
+.play-ico:hover .d-active-play {
+  display: block;
+}
+
+.green {
+  color: #337D5A;
+}
+
+
+
+@media screen and (max-width:760px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
   }
 }

@@ -1,0 +1,113 @@
+#about-us {
+  background-color: #FBFBFB;
+
+  .about {
+    padding: 80px 0;
+
+    .about-us__wrap {
+      .about-us__excerpt {
+        .about-us__desc {
+          font-family: 'Raleway';
+          font-weight: 500;
+          font-size: 16px;
+
+          span {
+            font-weight: 600;
+          }
+        }
+      }
+
+      .about-us__slideshow {
+        margin-left: 20px;
+
+        &:hover {
+          .play-ico {
+            opacity: 1;
+            transition: 0.4s;
+          }
+        }
+
+        .arrow-button {
+          left: 0;
+          bottom: 0;
+          padding: 10px 10px;
+          background-color: #337D5A;
+
+          a {
+            margin: 0 10px;
+          }
+        }
+      }
+
+      .play-ico {
+        width: auto;
+
+        a {
+          img {
+            bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+@media screen and (max-width:760px) {
+  .about-us__wrap {
+    flex-wrap: wrap;
+    align-items: center;
+
+    .about-us__excerpt {
+      width: 100%;
+      order: 2;
+
+      h3 {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        text-align: center;
+        font-size: 0.8rem;
+      }
+
+      button {
+        margin: auto;
+        margin-top: 30px;
+      }
+    }
+
+    .about-us__slideshow {
+      order: 1;
+      margin-bottom: 50px;
+
+      .play-ico {
+        display: none;
+      }
+
+      .arrow-button {
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 10px;
+        background-color: #337D5A;
+        position: initial;
+      }
+
+      img {
+        width: 80%;
+        height: 20%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+}

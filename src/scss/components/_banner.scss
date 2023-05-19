@@ -16,26 +16,9 @@
       font-size: 25px;
       color: white;
     }
-
-    .banner__play-ico {
-      img {
-        margin: 0;
-      }
-    }
   }
 }
 
-.banner__play-ico .d-active-play {
-  display: none;
-}
-
-.banner__play-ico:hover .active-play {
-  display: none
-}
-
-.banner__play-ico:hover .d-active-play {
-  display: block
-}
 
 @media screen and (max-width:760px) {
   .banner {

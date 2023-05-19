@@ -1,0 +1,57 @@
+.footer {
+  .container-fluid {
+    .footer__wrap {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      padding: 10px 5%;
+
+      .footer__nav {
+        .footer__nav-link {
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          color: #1A2F3F;
+
+          &:hover {
+            color: #337D5A;
+            transition: 0.4s;
+          }
+        }
+      }
+
+      .footer__author-desc {
+        color: #1A2F3F;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        position: relative;
+
+        span {
+          color: #337D5A;
+
+          &:nth-child(1) {
+            font-weight: 600;
+          }
+
+          &:nth-child(2) {
+            margin-left: 2px;
+          }
+
+          &:nth-child(3) {
+            color: #337D5A;
+            font-weight: 900;
+          }
+        }
+      }
+
+      .footer__copyright {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #1A2F3F;
+      }
+    }
+  }
+}
