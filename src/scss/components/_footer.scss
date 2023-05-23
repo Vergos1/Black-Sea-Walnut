@@ -55,3 +55,14 @@
     }
   }
 }
+
+@media screen and (max-width:720px) {
+  .footer {
+    .container-fluid {
+      .footer__wrap {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }
+}

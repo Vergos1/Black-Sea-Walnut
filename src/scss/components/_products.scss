@@ -119,8 +119,17 @@
   }
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:720px) {
   .products__wrap {
-    grid-column: 1/1;
+    .products__item {
+      max-width: 80%;
+      margin: auto;
+      text-align: center;
+
+      .products__price {
+        gap: 10px;
+        justify-content: center;
+      }
+    }
   }
 }
