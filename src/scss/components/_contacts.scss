@@ -1,0 +1,78 @@
+.contacts {
+  padding: 7% 0;
+}
+
+.phone-number,
+.mail-adress,
+.contacts__office-adress,
+.contacts__prodaction-adress {
+  span {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    color: #1A2F3F;
+  }
+
+  p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1A2F3F;
+    margin-left: 30px;
+  }
+
+  a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1A2F3F;
+
+    &:hover {
+      color: #337D5A;
+    }
+
+    .selection {
+      color: #337D5A;
+    }
+  }
+}
+
+
+
+@media screen and (max-width:720px) {
+  .contacts__wrap {
+    flex-direction: column-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contacts__map {
+    iframe {
+      max-width: 90%;
+      margin: auto;
+    }
+
+  }
+
+  .contacts__information {
+    margin: 0 auto;
+    text-align: center;
+    gap: 25px;
+
+    .title {
+      margin-top: 20px;
+    }
+  }
+
+  .contacts__prodaction-adress,
+  .contacts__office-adress,
+  .contacts__mail {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+}

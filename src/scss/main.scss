@@ -7,12 +7,13 @@
 // подключения компонентов страницы
 // большие компоненты
 @import "./components/header";
-@import "./components/footer";
-@import "./components/banner";
 @import "./components/header-wholesale";
 // шапка для wholesale
+@import "./components/footer";
+@import "./components/banner";
 @import "./components/products";
 @import "./components/about";
+@import "./components/contacts";
 
 
 .title {
@@ -71,7 +72,6 @@
 .green {
   color: #337D5A;
 }
-
 
 
 @media screen and (max-width:760px) {

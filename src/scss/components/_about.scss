@@ -19,7 +19,6 @@
 
       .about-us__slideshow {
         margin-left: 20px;
-        border: 2px solid transparent;
 
         img {
           cursor: pointer;
@@ -27,8 +26,6 @@
 
 
         &:hover {
-          border: 2px solid #337D5A;
-          transition: 0.4s;
 
           .about-us__picture {
             filter: grayscale(0.6);
