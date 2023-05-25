@@ -131,5 +131,16 @@
         justify-content: center;
       }
     }
+
+    .products__item {
+      max-width: 80%;
+      margin: auto;
+      text-align: center;
+
+      .products__price {
+        gap: 10px;
+        justify-content: center;
+      }
+    }
   }
 }
