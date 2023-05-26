@@ -30,6 +30,14 @@
   color: #FFFFFF;
 }
 
+.subtitle-italic {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
 .button-request-white {
   font-family: 'Raleway';
   font-weight: 700;
@@ -88,4 +96,34 @@
   .subtitle-h2 {
     font-size: 1rem;
   }
+
+  .subtitle-italic {
+    font-size: 1rem;
+  }
 }
+
+@media screen and (max-width:768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .title-h2 {
+    font-size: 2rem;
+  }
+
+  .subtitle-h2 {
+    font-size: 1rem;
+  }
+
+  .subtitle-italic {
+    font-size: 1rem;
+  }
+}
+
+// @media screen and (max-width:468px) {
+
+// }
