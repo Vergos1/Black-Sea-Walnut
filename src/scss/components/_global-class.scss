@@ -1,0 +1,91 @@
+.title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  color: #1A2F3F;
+}
+
+.subtitle {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #1A2F3F;
+}
+
+.title-h2 {
+  color: #FFFFFF;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.subtitle-h2 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.button-request-white {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 15px;
+  background-color: white;
+  color: #337D5A;
+  padding: 10px 30px;
+  border: 2px solid #337D5A;
+
+  &:hover {
+    color: white;
+    background-color: #337D5A;
+    border: 2px solid transparent;
+    transition: 0.4s;
+  }
+}
+
+.active-play {
+  max-width: 15%;
+}
+
+.d-active-play {
+  max-width: 15%;
+}
+
+.play-ico .d-active-play {
+  display: none;
+}
+
+.play-ico:hover .active-play {
+  display: none;
+}
+
+.play-ico:hover .d-active-play {
+  display: block;
+}
+
+.green {
+  color: #337D5A;
+}
+
+
+@media screen and (max-width:768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .title-h2 {
+    font-size: 2rem;
+  }
+
+  .subtitle-h2 {
+    font-size: 1rem;
+  }
+}

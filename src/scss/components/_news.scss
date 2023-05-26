@@ -1,8 +1,9 @@
 #news {
-  background-color: rgba(249, 249, 249, 0.7);
+
 
   .news {
     padding: 50px 0;
+    background-color: rgba(249, 249, 249, 0.7);
 
     .news__wrap {
       &:nth-child(2) {
@@ -22,8 +23,12 @@
       }
 
       .news__item {
-        flex-basis: 33%;
+        max-width: 320px;
         background-color: #FFFFFF;
+
+        img {
+          max-width: auto;
+        }
 
         .news__txt {
           padding: 7% 7%;
