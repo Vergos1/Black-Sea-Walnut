@@ -1,17 +1,19 @@
-.banner {
-  background-image: url(../../img/svg/banner-index.jpg);
+.main-banner {
+  background-image: url(../img/svg/main-banner-index.jpg);
   min-height: 600px;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 
-  .banner__desc {
-    .banner__title {
+
+  .main-banner__desc {
+    .main-banner__title {
       font-weight: 800;
       font-size: 62px;
       color: white;
     }
 
-    .banner__subtitle {
+    .main-banner__subtitle {
       font-weight: 500;
       font-size: 25px;
       color: white;
@@ -21,18 +23,18 @@
 
 
 @media screen and (max-width:768px) {
-  .banner {
+  .main-banner {
     min-height: auto;
     padding: 10% 0 10% 0;
 
-    .banner__desc {
-      .banner__title {
+    .main-banner__desc {
+      .main-banner__title {
         font-weight: 800;
         font-size: 2rem;
         color: white;
       }
 
-      .banner__subtitle {
+      .main-banner__subtitle {
         font-weight: 500;
         font-size: 1rem;
         color: white;
