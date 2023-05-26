@@ -1,0 +1,16 @@
+.error {
+  padding: 70px 0;
+
+  .error__desc {
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #1A2F3F;
+    }
+  }
+}

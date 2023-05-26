@@ -8,11 +8,8 @@
 // большие компоненты
 @import "./components/global-class";
 // global class
+
 @import "./components/header";
-@import "./components/header-wholesale";
-// шапка для wholesale
-@import "./components/header-wholesale";
-// шапка для wholesale
 @import "./components/main-banner";
 @import "./components/products";
 @import "./components/about";
@@ -21,5 +18,12 @@
 @import "./components/benefits";
 @import "./components/ecoproduction-banner";
 @import "./components/news";
-@import "./components/contacts";
+@import "./components/home-contacts";
+// home contacts
 @import "./components/footer";
+
+@import "./components/error";
+// error page
+
+@import "./components/payment-information";
+// delivery page

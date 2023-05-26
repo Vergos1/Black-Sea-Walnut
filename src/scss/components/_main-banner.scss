@@ -1,44 +1,46 @@
-.main-banner {
+.banner {
   background-image: url(../img/svg/main-banner-index.jpg);
   min-height: 600px;
   background-position: center;
   background-size: cover;
 
+}
 
-  .main-banner__desc {
-    .main-banner__title {
-      font-weight: 800;
-      font-size: 62px;
-      color: white;
-    }
+.delivery-banner {
+  background-image: url(../img/svg/delivery-banner.jpg);
+  min-height: 300px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
 
-    .main-banner__subtitle {
-      font-weight: 500;
-      font-size: 25px;
-      color: white;
+  .banner__breadcrumbs {
+
+    .breadcrumb {
+      .breadcrumb-item {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #FFFFFF;
+      }
     }
+  }
+
+  h1 {
+    margin: auto;
   }
 }
 
-
 @media screen and (max-width:768px) {
-  .main-banner {
+  .banner {
     min-height: auto;
-    padding: 10% 0 10% 0;
+    padding: 10% 0;
+  }
+}
 
-    .main-banner__desc {
-      .main-banner__title {
-        font-weight: 800;
-        font-size: 2rem;
-        color: white;
-      }
-
-      .main-banner__subtitle {
-        font-weight: 500;
-        font-size: 1rem;
-        color: white;
-        margin: 10px;
-      }
-    }
+@media screen and (max-width:480px) {
+  .banner {
+    min-height: auto;
+    padding: 20% 0 20% 0;
   }
 }
