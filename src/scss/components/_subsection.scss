@@ -1,7 +1,13 @@
+.subsection-grey {
+  background-color: #FBFBFB;
+}
+
 .subsection {
   padding: 60px 0;
 
   .subsection__wrap {
+    padding: 0 5%;
+
     .subsection__item {
       flex-basis: 24%;
 

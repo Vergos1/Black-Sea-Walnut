@@ -11,6 +11,13 @@
   }
 }
 
+.wholesale-eco-production-bannner {
+  background-image: url(../img/svg/wholesale-ecoproduction-banner.jpg);
+  min-height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
 @media screen and (max-width:768px) {
   .eco-production-banner {
     min-height: auto;

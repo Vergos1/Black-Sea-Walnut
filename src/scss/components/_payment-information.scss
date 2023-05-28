@@ -11,7 +11,7 @@
 
     .payment-information__menu-item {
       border-bottom: 3px solid transparent;
-      padding: 0 10px;
+      padding-bottom: 15px;
 
       &:nth-child(1) {
         border-bottom: 3px solid #337D5A;
@@ -69,38 +69,78 @@
 @media screen and (max-width:768px) {
   .payment-information {
     .payment-information__wrap {
-      &:nth-child(2) {
-        flex-direction: column;
-      }
+      gap: 25px;
 
       .payment-information__menu-item {
-        border: none;
         justify-content: center;
+        padding: 0;
+        padding-bottom: 5px;
+        margin: auto;
+      }
 
-        &:hover {
-          border: none;
-        }
+      .payment-information__picture {
+        min-width: 80%;
+        order: -1;
       }
 
       .payment-information__excerpt {
-        width: 100%;
         padding: 10% 10%;
         text-align: center;
         gap: 50px;
+        min-width: 100%;
+        flex-direction: row;
+
+        button {
+          margin: auto;
+        }
 
         .payment-information__text-item {
+
+          max-width: 40%;
+          margin: auto;
+
+          &:nth-child(1) {
+            min-width: 100%;
+          }
 
           div {
             flex-direction: column;
 
+            img {
+              margin: 0;
+            }
           }
 
           .payment-information__name {
             margin-bottom: 30px;
+            margin: auto;
           }
         }
 
       }
+    }
+  }
+}
+
+@media screen and (max-width:480px) {
+  .payment-information {
+    .payment-information__wrap {
+      &:nth-child(2) {
+        flex-direction: column;
+      }
+    }
+
+    .payment-information__excerpt {
+      order: 1;
+
+      .payment-information__text-item {
+        min-width: 100%;
+        margin: auto;
+      }
+    }
+
+    .payment-information__picture {
+      order: -1;
     }
   }
 }

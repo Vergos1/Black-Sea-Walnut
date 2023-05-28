@@ -31,6 +31,33 @@
   }
 }
 
+
+.wholesale-banner {
+  background-image: url(../img/svg/wholesale-banner.jpg);
+  min-height: 600px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+
+  .banner__breadcrumbs {
+
+    .breadcrumb {
+      .breadcrumb-item {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  div {
+    margin: auto;
+  }
+
+}
+
 @media screen and (max-width:768px) {
   .banner {
     min-height: auto;
